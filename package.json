@@ -1,0 +1,19 @@
+{
+  "name": "invoice-assistant-skill",
+  "version": "1.0.0",
+  "main": "build.js",
+  "scripts": {
+    "build": "node go-script/build.js --env prod invoice-issue"
+  },
+  "type": "module",
+  "dependencies": {
+    "@resvg/resvg-wasm": "2.6.2",
+    "archiver": "^8.0.0",
+    "opentype.js": "1.3.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "提供单张、批量及数电票开具、开票授权和开票结果查询能力。",
+  "private": true
+}
